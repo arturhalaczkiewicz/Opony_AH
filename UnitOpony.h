@@ -33,6 +33,9 @@ __published:	// IDE-managed Components
 	TFlowLayoutBreak *FlowLayoutBreak4;
 	TLabel *Label6;
 	TLabel *LabelObwodKola;
+	TFlowLayoutBreak *FlowLayoutBreak5;
+	TLabel *Label7;
+	TLabel *LabelOdpowiedz;
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall ComboBoxSNChange(TObject *Sender);
 private:	// User declarations

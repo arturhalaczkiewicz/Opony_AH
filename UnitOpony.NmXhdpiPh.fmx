@@ -7,48 +7,77 @@ inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
     inherited Label1: TLabel
       Position.X = 135.000000000000000000
     end
+    inherited FlowLayoutBreak2: TFlowLayoutBreak
+      Visible = True
+    end
     inherited ComboBoxSN: TComboBox
       Position.X = 44.000000000000000000
+      Position.Y = 75.000000000000000000
       Size.Height = 32.000000000000000000
     end
     inherited Label2: TLabel
       Position.X = 154.000000000000000000
+      Position.Y = 75.000000000000000000
     end
     inherited ComboBoxAR: TComboBox
       Position.X = 190.000000000000000000
+      Position.Y = 75.000000000000000000
       Size.Height = 32.000000000000000000
     end
     inherited Label3: TLabel
       Position.X = 261.000000000000000000
+      Position.Y = 75.000000000000000000
     end
     inherited ComboBoxDR: TComboBox
       Position.X = 297.000000000000000000
+      Position.Y = 75.000000000000000000
       Size.Height = 32.000000000000000000
+    end
+    inherited FlowLayoutBreak1: TFlowLayoutBreak
+      Visible = True
     end
     inherited Label4: TLabel
       Position.X = 33.000000000000000000
-      Position.Y = 92.000000000000000000
+      Position.Y = 142.000000000000000000
     end
     inherited Edit1: TEdit
       Position.X = 215.000000000000000000
-      Position.Y = 92.000000000000000000
+      Position.Y = 142.000000000000000000
       Size.Height = 32.000000000000000000
     end
-    inherited Label5: TLabel
+    inherited FlowLayoutBreak3: TFlowLayoutBreak [10]
+      Visible = True
+    end
+    inherited Label5: TLabel [11]
       Position.X = 66.000000000000000000
-      Position.Y = 134.000000000000000000
+      Position.Y = 209.000000000000000000
     end
-    inherited LabelSrednicaKola: TLabel
+    inherited LabelSrednicaKola: TLabel [12]
       Position.X = 189.000000000000000000
-      Position.Y = 134.000000000000000000
+      Position.Y = 209.000000000000000000
     end
-    inherited Label6: TLabel
+    inherited FlowLayoutBreak4: TFlowLayoutBreak [13]
+      Visible = True
+    end
+    inherited Label6: TLabel [14]
       Position.X = 71.500000000000000000
-      Position.Y = 171.000000000000000000
+      Position.Y = 271.000000000000000000
+      TabOrder = 8
     end
-    inherited LabelObwodKola: TLabel
+    inherited LabelObwodKola: TLabel [15]
       Position.X = 183.500000000000000000
-      Position.Y = 171.000000000000000000
+      Position.Y = 271.000000000000000000
+    end
+    inherited FlowLayoutBreak5: TFlowLayoutBreak [16]
+      Visible = True
+    end
+    inherited Label7: TLabel [17]
+      Position.X = 58.000000000000000000
+      Position.Y = 333.000000000000000000
+      TabOrder = 9
+    end
+    inherited LabelOdpowiedz: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
     end
   end
 end

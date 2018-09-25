@@ -36,6 +36,8 @@ void __fastcall TForm1::ComboBoxSNChange(TObject *Sender)
 	float ar=0;
 	float d=0;
 	float o=0;
+	float dystans=0;
+	float obrotow=0;
 	AnsiString s;
 	
 	if (ComboBoxDR->ItemIndex!=-1) dr=StrToInt(ComboBoxDR->Items->Strings[ComboBoxDR->ItemIndex])*25.4;	
@@ -44,16 +46,37 @@ void __fastcall TForm1::ComboBoxSNChange(TObject *Sender)
 	d=dr+2*sn*ar;
 	o=3.14*d;
 
-	if (dr==0 || sn==0 || ar==0) 
+	try 
+	{
+		dystans=Edit1->Text.ToDouble()*1000.0; // dystans w metrach
+		obrotow=dystans/(double)(o/1000.0); // z milimetrow na kilometry
+	} 
+	catch (...) 	
+	{             	
+		obrotow=0;
+	}
+	
+
+	if (dr==0 || sn==0 || ar==0)
 	{	
 		LabelSrednicaKola->Text="???";	
 		LabelObwodKola->Text="???";
+		obrotow=0;
 	}
 	else    						
 	{
 		LabelSrednicaKola->Text=s.sprintf("%0.2f mm",d);
-		LabelObwodKola->Text=s.sprintf("%0.2f mm",o);
+		LabelObwodKola->Text=s.sprintf("%0.2f mm",o);		
 	}
+
+	if (obrotow==0) 
+	{
+		LabelOdpowiedz->Text="Ko³a wykona³y ??? obrotów.";
+	}
+	else
+	{
+		LabelOdpowiedz->Text=s.sprintf("Ko³a wykona³y %.0f obrotów.",obrotow);
+    }
 
 
 	
