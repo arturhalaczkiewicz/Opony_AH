@@ -1,0 +1,54 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited FlowLayout1: TFlowLayout
+    Size.Width = 400.000000000000000000
+    inherited Label1: TLabel
+      Position.X = 135.000000000000000000
+    end
+    inherited ComboBoxSN: TComboBox
+      Position.X = 44.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited Label2: TLabel
+      Position.X = 154.000000000000000000
+    end
+    inherited ComboBoxAR: TComboBox
+      Position.X = 190.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited Label3: TLabel
+      Position.X = 261.000000000000000000
+    end
+    inherited ComboBoxDR: TComboBox
+      Position.X = 297.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited Label4: TLabel
+      Position.X = 33.000000000000000000
+      Position.Y = 92.000000000000000000
+    end
+    inherited Edit1: TEdit
+      Position.X = 215.000000000000000000
+      Position.Y = 92.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited Label5: TLabel
+      Position.X = 66.000000000000000000
+      Position.Y = 134.000000000000000000
+    end
+    inherited LabelSrednicaKola: TLabel
+      Position.X = 189.000000000000000000
+      Position.Y = 134.000000000000000000
+    end
+    inherited Label6: TLabel
+      Position.X = 71.500000000000000000
+      Position.Y = 171.000000000000000000
+    end
+    inherited LabelObwodKola: TLabel
+      Position.X = 183.500000000000000000
+      Position.Y = 171.000000000000000000
+    end
+  end
+end

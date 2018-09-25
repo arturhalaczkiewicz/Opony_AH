@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 591
+  ClientWidth = 463
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object FlowLayout1: TFlowLayout
+    Align = Top
+    Size.Width = 463.000000000000000000
+    Size.Height = 337.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Center
+    JustifyLastLine = Center
+    FlowDirection = LeftToRight
+    object Label1: TLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 166.500000000000000000
+      Size.Width = 130.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 30.000000000000000000
+      Text = 'Kr'#281'cik'#243#322
+      TabOrder = 0
+    end
+    object FlowLayoutBreak1: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Center
+      JustifyLastLine = Center
+      FlowDirection = LeftToRight
+    end
+    object ComboBoxSN: TComboBox
+      Placement = Center
+      Position.X = 75.500000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 110.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      OnChange = ComboBoxSNChange
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 185.500000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 36.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '/'
+      TabOrder = 6
+    end
+    object ComboBoxAR: TComboBox
+      Position.X = 221.500000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 71.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+    end
+    object Label3: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 292.500000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 36.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'R'
+      TabOrder = 5
+    end
+    object ComboBoxDR: TComboBox
+      Position.X = 328.500000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 59.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+    object FlowLayoutBreak2: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Center
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 139.500000000000000000
+      Position.Y = 73.000000000000000000
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'Label4'
+      TabOrder = 8
+    end
+  end
+end
