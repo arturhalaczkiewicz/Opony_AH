@@ -119,11 +119,14 @@ object Form1: TForm1
     object Edit1: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       TabOrder = 15
+      ControlType = Platform
+      KeyboardType = DecimalNumberPad
       Position.X = 198.500000000000000000
       Position.Y = 90.000000000000000000
       Size.Width = 152.000000000000000000
       Size.Height = 30.000000000000000000
       Size.PlatformDefault = False
+      KillFocusByReturn = True
       OnChange = ComboBoxSNChange
     end
     object Label7: TLabel
@@ -174,7 +177,7 @@ object Form1: TForm1
       TextSettings.Font.Size = 20.000000000000000000
       TextSettings.HorzAlign = Trailing
       TextSettings.WordWrap = False
-      Text = '???'
+      Text = '?'
       TabOrder = 7
     end
     object FlowLayoutBreak4: TFlowLayoutBreak
@@ -210,7 +213,7 @@ object Form1: TForm1
       TextSettings.Font.Size = 20.000000000000000000
       TextSettings.HorzAlign = Trailing
       TextSettings.WordWrap = False
-      Text = '???'
+      Text = '?'
       TabOrder = 6
     end
     object FlowLayoutBreak5: TFlowLayoutBreak
@@ -225,13 +228,13 @@ object Form1: TForm1
       StyledSettings = [Family, FontColor]
       Padding.Left = 10.000000000000000000
       Padding.Right = 10.000000000000000000
-      Size.Width = 256.000000000000000000
+      Size.Width = 96.000000000000000000
       Size.Height = 27.000000000000000000
       Size.PlatformDefault = False
       TextSettings.Font.Size = 20.000000000000000000
       TextSettings.Font.StyleExt = {00070000000000000004000000}
       TextSettings.WordWrap = False
-      Text = 'Ko'#322'a wykona'#322'y ??? obrot'#243'w'
+      Text = '? obrot'#243'w'
       TabOrder = 11
     end
   end
