@@ -1,0 +1,237 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 558
+  ClientWidth = 395
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object FlowLayout1: TFlowLayout
+    Align = Top
+    Size.Width = 395.000000000000000000
+    Size.Height = 249.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Center
+    JustifyLastLine = Center
+    FlowDirection = LeftToRight
+    VerticalGap = 10.000000000000000000
+    object Label1: TLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 132.500000000000000000
+      Size.Width = 130.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 30.000000000000000000
+      Text = 'Kr'#281'cik'#243#322
+      TabOrder = 0
+    end
+    object FlowLayoutBreak2: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Center
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object ComboBoxSN: TComboBox
+      Placement = Center
+      Position.X = 41.500000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 110.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnChange = ComboBoxSNChange
+    end
+    object Label2: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 151.500000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 36.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '/'
+      TabOrder = 2
+    end
+    object ComboBoxAR: TComboBox
+      Position.X = 187.500000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 71.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      OnChange = ComboBoxSNChange
+    end
+    object Label3: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 258.500000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 36.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'R'
+      TabOrder = 13
+    end
+    object ComboBoxDR: TComboBox
+      Position.X = 294.500000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 59.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      OnChange = ComboBoxSNChange
+    end
+    object FlowLayoutBreak1: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Center
+      JustifyLastLine = Center
+      FlowDirection = LeftToRight
+    end
+    object Label4: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 16.500000000000000000
+      Position.Y = 90.000000000000000000
+      Size.Width = 182.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.WordWrap = False
+      Text = 'Przejechany dystans:'
+      TabOrder = 12
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 15
+      Position.X = 198.500000000000000000
+      Position.Y = 90.000000000000000000
+      Size.Width = 152.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label7: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 350.500000000000000000
+      Position.Y = 90.000000000000000000
+      Size.Width = 28.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.WordWrap = False
+      Text = 'km'
+      TabOrder = 8
+    end
+    object FlowLayoutBreak3: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object Label5: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 63.500000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 123.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.WordWrap = False
+      Text = #346'rednica ko'#322'a:'
+      TabOrder = 10
+    end
+    object LabelSrednicaKola: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 186.500000000000000000
+      Position.Y = 130.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = '???'
+      TabOrder = 7
+    end
+    object FlowLayoutBreak4: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object Label6: TLabel
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 69.000000000000000000
+      Position.Y = 167.000000000000000000
+      Size.Width = 112.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.WordWrap = False
+      Text = 'Obw'#243'd ko'#322'a:'
+      TabOrder = 9
+    end
+    object LabelObwodKola: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Position.X = 181.000000000000000000
+      Position.Y = 167.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = '???'
+      TabOrder = 6
+    end
+    object FlowLayoutBreak5: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    object LabelOdpowiedz: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Size.Width = 256.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.WordWrap = False
+      Text = 'Ko'#322'a wykona'#322'y ??? obrot'#243'w'
+      TabOrder = 11
+    end
+  end
+end
