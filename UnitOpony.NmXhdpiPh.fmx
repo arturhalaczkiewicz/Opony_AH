@@ -37,44 +37,44 @@ inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
       Visible = True
     end
     inherited Label4: TLabel
-      Position.X = 33.000000000000000000
+      Position.X = 19.000000000000000000
       Position.Y = 142.000000000000000000
     end
     inherited Edit1: TEdit
-      Position.X = 215.000000000000000000
+      Position.X = 201.000000000000000000
       Position.Y = 142.000000000000000000
       Size.Height = 32.000000000000000000
     end
-    inherited FlowLayoutBreak3: TFlowLayoutBreak [10]
+    inherited Label7: TLabel
+      Position.X = 353.000000000000000000
+      Position.Y = 142.000000000000000000
+      TabOrder = 9
+    end
+    inherited FlowLayoutBreak3: TFlowLayoutBreak
       Visible = True
     end
-    inherited Label5: TLabel [11]
+    inherited Label5: TLabel
       Position.X = 66.000000000000000000
       Position.Y = 209.000000000000000000
     end
-    inherited LabelSrednicaKola: TLabel [12]
+    inherited LabelSrednicaKola: TLabel
       Position.X = 189.000000000000000000
       Position.Y = 209.000000000000000000
     end
-    inherited FlowLayoutBreak4: TFlowLayoutBreak [13]
+    inherited FlowLayoutBreak4: TFlowLayoutBreak
       Visible = True
     end
-    inherited Label6: TLabel [14]
+    inherited Label6: TLabel
       Position.X = 71.500000000000000000
       Position.Y = 271.000000000000000000
       TabOrder = 8
     end
-    inherited LabelObwodKola: TLabel [15]
+    inherited LabelObwodKola: TLabel
       Position.X = 183.500000000000000000
       Position.Y = 271.000000000000000000
     end
-    inherited FlowLayoutBreak5: TFlowLayoutBreak [16]
+    inherited FlowLayoutBreak5: TFlowLayoutBreak
       Visible = True
-    end
-    inherited Label7: TLabel [17]
-      Position.X = 58.000000000000000000
-      Position.Y = 333.000000000000000000
-      TabOrder = 9
     end
     inherited LabelOdpowiedz: TLabel
       TextSettings.Font.StyleExt = {00070000000000000004000000}

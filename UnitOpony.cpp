@@ -59,23 +59,26 @@ void __fastcall TForm1::ComboBoxSNChange(TObject *Sender)
 
 	if (dr==0 || sn==0 || ar==0)
 	{	
-		LabelSrednicaKola->Text="???";	
-		LabelObwodKola->Text="???";
+		LabelSrednicaKola->Text="?";
+		LabelObwodKola->Text="?";
 		obrotow=0;
 	}
 	else    						
 	{
-		LabelSrednicaKola->Text=s.sprintf("%0.2f mm",d);
-		LabelObwodKola->Text=s.sprintf("%0.2f mm",o);		
+		LabelSrednicaKola->Text=FormatFloat("### ###.##",d)+" mm";
+//		s.sprintf("%0.2f mm",d);
+		LabelObwodKola->Text=FormatFloat("### ###.##",o)+" mm";
+		//s.sprintf("%0.2f mm",o);
 	}
 
 	if (obrotow==0) 
 	{
-		LabelOdpowiedz->Text="Ko³a wykona³y ??? obrotów.";
+		LabelOdpowiedz->Text=_D("? obrotów.");
 	}
 	else
 	{
-		LabelOdpowiedz->Text=s.sprintf("Ko³a wykona³y %.0f obrotów.",obrotow);
+		LabelOdpowiedz->Text=FormatFloat("### ### ###",obrotow)+_D(" obrotów");
+		//s.sprintf("%.0f obrotów.",obrotow);
     }
 
 

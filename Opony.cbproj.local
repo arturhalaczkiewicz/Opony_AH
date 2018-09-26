@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+<<<<<<< HEAD
     <Transaction>1899-12-30 00:00:00.000.014,E:\Programowanie\Embarcadero\Opony_AH\Opony.cbproj=E:\Programowanie\Embarcadero\Project1.cbproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.560,E:\Programowanie\Embarcadero\Opony_AH\Opony_PCH1.h=E:\Programowanie\Embarcadero\Project1PCH1.h</Transaction>
     <Transaction>1899-12-30 00:00:00.000.659,=E:\Programowanie\Embarcadero\Unit1.cpp</Transaction>
@@ -9,4 +10,15 @@
     <Transaction>1899-12-30 00:00:00.000.113,E:\Programowanie\Embarcadero\Opony_AH\UnitOpony.h=E:\Programowanie\Embarcadero\Unit1.h</Transaction>
     <Transaction>1899-12-30 00:00:00.000.113,E:\Programowanie\Embarcadero\Opony_AH\UnitOpony.cpp=E:\Programowanie\Embarcadero\Unit1.cpp</Transaction>
   </Transactions>
+=======
+    <Transaction>1899-12-30 00:00:00.000.659,=E:\Programowanie\Embarcadero\Unit1.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.113,E:\Programowanie\Embarcadero\Unit1.cpp=E:\Programowanie\Embarcadero\Opony_AH\UnitOpony.cpp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.014,E:\Programowanie\Embarcadero\Project1.cbproj=E:\Programowanie\Embarcadero\Opony_AH\Opony.cbproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.560,E:\Programowanie\Embarcadero\Project1PCH1.h=E:\Programowanie\Embarcadero\Opony_AH\Opony_PCH1.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.113,E:\Programowanie\Embarcadero\Unit1.fmx=E:\Programowanie\Embarcadero\Opony_AH\UnitOpony.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.113,E:\Programowanie\Embarcadero\Unit1.h=E:\Programowanie\Embarcadero\Opony_AH\UnitOpony.h</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.750,=E:\Programowanie\Embarcadero\Project1PCH1.h</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="FA67JBN01492"/>
+  </ActiveMobileDevice>
+>>>>>>> 2849193201ad4e065a70671d874d307ba1fdca1d
 </BorlandProject>
